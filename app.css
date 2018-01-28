@@ -3,10 +3,10 @@ html {
 }
 
 body {
-  font-family: Georgia, serif;
+  font-family: Futura, sans-serif;
   font-size: 36px;
   color: #252528;
-  background-color: white;
+  background-color: #eee;
   margin: 0;
   height: 100%;
   display: flex;
@@ -59,28 +59,15 @@ li.pane {
   padding-bottom: 1.2em;
   margin-bottom: 2em;
   text-align: center;
-  border: 1px solid #ddd;
-  box-shadow: 2px 2px #e8e8e8;  
-}
-
-.entry-meta {
-  color: hsl(341, 10%, 20%);
-  font-weight: bold;
-}
-
-.media-caption {
-  flex-grow: 1;
-  font-size: larger;
-  margin-top: 1em;
 }
 
 .time-stamp {
   margin-bottom: 1em;  
 }
 
-.pane video,img {
-  border-left: 1px solid hsla(30, 14%, 67%, 0.5);
-  width: 100%;
+.text-caption {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 @media all and (max-width: 414px) {
